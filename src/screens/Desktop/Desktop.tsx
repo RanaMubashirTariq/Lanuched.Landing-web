@@ -7,6 +7,7 @@ import { LaunchpadListSection } from "./sections/LaunchpadListSection";
 import { NavigationSection } from "./sections/NavigationSection";
 import { SecurityTrustSection } from "./sections/SecurityTrustSection/SecurityTrustSection";
 import { TokenUtilitySection } from "./sections/TokenUtilitySection";
+import frameImg from '../../../img/frame.svg'
 
 export const Desktop = (): JSX.Element => {
   // Navigation menu items
@@ -106,7 +107,7 @@ export const Desktop = (): JSX.Element => {
                   <img
                     className="relative w-[37px] h-[42px]"
                     alt="Frame"
-                    src="/img/frame.svg"
+                    src={frameImg}
                   />
                   <div className="relative w-fit [font-family:'SeoulHangang_CEB-Regular',Helvetica] font-normal text-white text-[32px] tracking-[0] leading-[normal] whitespace-nowrap">
                     Launchhood
